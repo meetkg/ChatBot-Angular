@@ -1,17 +1,19 @@
 # ChitChatHub
 
-ChitChatHub is a responsive web-based chat application developed using Angular. It's designed to facilitate real-time communication with features like message editing and automated response handling. This application is an ideal showcase of Angular capabilities in building dynamic and interactive web applications.
+ChitChatHub is an innovative web-based chat application developed using Angular. It integrates with an open-source language model or OpenAI APIs to provide a ChatGPT-like conversational experience. This application exemplifies the use of advanced AI models in creating interactive and intelligent chat interfaces.
 
 ## Features
 
-- **Real-Time Messaging**: Allows users to send and receive messages instantly.
-- **Message Editing**: Users can edit their messages after sending them.
-- **Automated Responses**: Incorporates functionality to process and respond to user inputs.
-- **Responsive Design**: The application is designed to be fully responsive, providing a seamless experience across various devices.
+- **AI-Enhanced Chat**: Leverages an open-source language model or OpenAI APIs for intelligent and dynamic conversations.
+- **Real-Time Messaging**: Users can send and receive messages instantly with AI-driven responses.
+- **Message Editing**: Provides the ability for users to edit their messages post sending.
+- **Responsive Design**: Fully responsive, ensuring a consistent user experience across various devices.
+- **Automated Responses**: Handles user inputs and generates automated responses using AI technology.
 
 ## Technology Stack
 
 - **Frontend**: Angular
+- **AI Integration**: Open-source language model / OpenAI APIs
 - **Testing**: Angular Testing Framework
 
 ## Getting Started
@@ -31,29 +33,29 @@ ChitChatHub is a responsive web-based chat application developed using Angular. 
    ```
    cd ChitChatHub
    ```
-3. Install the required dependencies:
+3. Install the necessary dependencies:
    ```
    npm install
    ```
 
 ### Running the Application
 
-1. To run the application locally, use the Angular CLI command:
+1. Start the application using Angular CLI:
    ```
    ng serve
    ```
-2. Open your browser and navigate to `http://localhost:4200/`.
+2. Open `http://localhost:4200/` in your browser.
 
 ## Testing
 
-To run the unit tests for the application components, use the following command:
+Run the unit tests for the application components with:
 ```
 ng test
 ```
 
 ## Contributing
 
-Contributions to ChitChatHub are welcomed. To contribute:
+We welcome contributions to ChitChatHub. To contribute:
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -62,5 +64,7 @@ Contributions to ChitChatHub are welcomed. To contribute:
 5. Open a Pull Request
 
 ## Contact
-Email: mk.gokalani@gmail.com
+
+Meet Gokalani: mk.gokalani@gmail.com
+
 Project Link: [https://github.com/[your-username]/ChitChatHub](https://github.com/[your-username]/ChitChatHub)
