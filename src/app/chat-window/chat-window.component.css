@@ -1,0 +1,42 @@
+/* src/app/chat-window/chat-window.component.css */
+
+.chat-window {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .messages {
+    width: 80%;
+    height: 95%;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+    overflow: auto;
+    margin-bottom: 10px;
+  }
+  
+  .input-area {
+    width: 80%;
+    display: flex;
+    align-items: center;
+  }
+  
+  input {
+    flex-grow: 1;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    margin-right: 10px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1976d2;
+    color: white;
+    cursor: pointer;
+  }
+  

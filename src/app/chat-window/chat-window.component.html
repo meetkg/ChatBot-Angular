@@ -1,0 +1,13 @@
+<!-- src/app/chat-window/chat-window.component.html -->
+
+<div class="chat-window">
+    <div class="messages">
+      <ng-container *ngFor="let message of messages$ | async; let index = index">
+        <app-message [role]="message.role" [content]="message.content" (update)="handleUpdateMessage(index, $event)"></app-message>
+      </ng-container>
+    </div>
+    <div class="input-area">
+      <input [(ngModel)]="userMessage" placeholder="Type your message here" (keypress)="handleKeyPress($event)" />
+      <button (click)="sendMessage()" [disabled]="isProcessing">Send</button>
+    </div>
+</div>

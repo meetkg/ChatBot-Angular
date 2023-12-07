@@ -1,0 +1,16 @@
+<!-- message.component.html -->
+
+<div [style.textAlign]="role === 'user' ? 'right' : 'left'" style="margin-bottom: 16px;">
+    <div style="padding: 8px; border-radius: 4px; display: inline-flex; align-items: center; max-width: 80%;"
+      [style.backgroundColor]="role === 'user' ? 'grey' : '#1976d2'">
+      <ng-container *ngIf="isEditing; else displayTemplate">
+        <input [(ngModel)]="editedContent" style="flex: 1;">
+        <button (click)="handleSave()">Save</button>
+      </ng-container>
+      <ng-template #displayTemplate>
+        {{ content }}
+        <button (click)="handleEdit()">Edit</button>
+      </ng-template>
+    </div>
+  </div>
+  
